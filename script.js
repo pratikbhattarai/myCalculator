@@ -1,7 +1,9 @@
 let inputField=document.getElementById('inputField');
 let inputresult=document.getElementById('inputresult');
 
-
+function addcube(){
+   inputField.value=inputField.value*inputField.value*inputField.value
+}
 
 
 function add (result){
