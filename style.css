@@ -1,0 +1,38 @@
+.form-group{
+    border: 1px solid;
+    height: 400px;
+    width: 270px;
+    border: none;
+    margin-top: 20%;
+    margin-left: 40%;
+    transform: translate(-50%,-50%);
+    
+}
+body{
+    background-color:rgba(1, 1, 1, 0.89);
+}
+#inputField{
+    height: 70px;
+    width: 263px;
+    border: none;
+    outline: none;
+    font-size: 2em;
+    text-align: right;
+    
+}
+
+input[type=button]{
+    
+    height: 70px;
+    width: 73px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    background-color: rgba(128, 128, 128, 0.281);
+    border: 1px solid black;
+    
+}
+input[type=button]:last-child{
+ background-color: rgba(255, 0, 0, 0.692);   
+}
